@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Typography, useTheme } from "@mui/material";
-import { mockDataTeam } from "../../data/mockData";
+import { DataGrid } from "@mui/x-data-grid";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
-import { DataGrid } from "@mui/x-data-grid";
+import { mockDataTeam } from "../../data/mockData";
 
 const Team = () => {
   const theme = useTheme();
