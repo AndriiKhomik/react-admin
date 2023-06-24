@@ -3,7 +3,7 @@ import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../../theme";
 import { mockBarData as data } from "../../data/mockData";
 
-const BarChart = ({ isDashbord = false }) => {
+const BarChart = ({ isDashbard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -89,7 +89,7 @@ const BarChart = ({ isDashbord = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashbord ? undefined : "country",
+        legend: isDashbard ? undefined : "country",
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -97,7 +97,7 @@ const BarChart = ({ isDashbord = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashbord ? undefined : "food",
+        legend: isDashbard ? undefined : "food",
         legendPosition: "middle",
         legendOffset: -40,
       }}
